@@ -26,7 +26,14 @@ library
   exposed-modules: 
     GenProg, GenProg.GenExpr, GenProg.GenExpr.Data
   build-depends: 
-    base == 4.6.*, syb == 0.4.*, syz == 0.2.*, MonadRandom == 0.1.*
+    base 
+      -- == 4.6.*
+      , syb 
+        -- == 0.4.*
+        , syz 
+        -- == 0.2.*
+        , MonadRandom 
+        -- == 0.1.*
   hs-source-dirs: src
   extensions:
     MultiParamTypeClasses, FunctionalDependencies, 
